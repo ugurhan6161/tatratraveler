@@ -212,7 +212,7 @@ export default function BookingForm() {
 
       // Call the WhatsApp API
       const response = await fetch(
-        `https://api.callmebot.com/whatsapp.php?phone=905550009261&text=${encodedMessage}&apikey=8845842`,
+        `https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedMessage}&apikey=5305221`,
       )
 
       // Show success modal
