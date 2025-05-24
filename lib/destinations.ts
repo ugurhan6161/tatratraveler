@@ -12,7 +12,7 @@ export const popularDestinations = [
       tr: "İkonik Eyfel Kulesi'ne ev sahipliği yapan Işık Şehri",
     },
     image:
-      "https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80",
+      "https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const popularDestinations = [
       tr: "Antik kalıntıları ve berrak suları ile Akdeniz cenneti",
     },
     image:
-      "https://images.unsplash.com/photo-1539650116574-75c0c6d73dd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1539650116574-75c0c6d73dd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const popularDestinations = [
       tr: "Peri bacaları ve sıcak hava balonları ile mistik manzara",
     },
     image:
-      "https://images.unsplash.com/photo-1539650116574-75c0c6d73dd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const popularDestinations = [
       tr: "Canlı gece hayatı ve tertemiz plajları ile Ege kıyısının incisi",
     },
     image:
-      "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "https://images.unsplash.com/photo-1571406252267-79c4ac2d5d51?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ export const popularDestinations = [
       tr: "Doğu ile Batı'nın buluştuğu tarihi camiler ve modern kültür",
     },
     image:
-      "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 6,
@@ -87,7 +87,7 @@ export const popularDestinations = [
       tr: "Güzel plajları ve zengin kültürü ile ada cenneti",
     },
     image:
-      "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 7,
@@ -102,7 +102,7 @@ export const popularDestinations = [
       tr: "Ultra modern mimari ve lüks alışveriş",
     },
     image:
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 8,
@@ -117,66 +117,6 @@ export const popularDestinations = [
       tr: "Doğal beyaz teraslar ve termal kaynaklar harikası",
     },
     image:
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-  },
-  {
-    id: 9,
-    name: {
-      en: "Tokyo, Japan",
-      ar: "طوكيو، اليابان",
-      tr: "Tokyo, Japonya",
-    },
-    description: {
-      en: "Blend of traditional culture and cutting-edge technology",
-      ar: "مزيج من الثقافة التقليدية والتكنولوجيا المتطورة",
-      tr: "Geleneksel kültür ve son teknolojinin karışımı",
-    },
-    image:
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2094&q=80",
-  },
-  {
-    id: 10,
-    name: {
-      en: "Fethiye, Turkey",
-      ar: "فتحية، تركيا",
-      tr: "Fethiye, Türkiye",
-    },
-    description: {
-      en: "Turquoise coast with stunning beaches and paragliding",
-      ar: "ساحل فيروزي مع شواطئ خلابة والطيران المظلي",
-      tr: "Nefes kesen plajları ve yamaç paraşütü ile Turkuaz sahil",
-    },
-    image:
-      "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
-  },
-  {
-    id: 11,
-    name: {
-      en: "Santorini, Greece",
-      ar: "سانتوريني، اليونان",
-      tr: "Santorini, Yunanistan",
-    },
-    description: {
-      en: "Stunning whitewashed buildings with blue domes",
-      ar: "مباني بيضاء مذهلة مع قباب زرقاء",
-      tr: "Mavi kubbeli muhteşem beyaz binalar",
-    },
-    image:
-      "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2019&q=80",
-  },
-  {
-    id: 12,
-    name: {
-      en: "Maldives",
-      ar: "المالديف",
-      tr: "Maldivler",
-    },
-    description: {
-      en: "Overwater bungalows and pristine turquoise waters",
-      ar: "أكواخ فوق الماء ومياه فيروزية نقية",
-      tr: "Su üstü bungalovları ve berrak turkuaz sular",
-    },
-    image:
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
 ]

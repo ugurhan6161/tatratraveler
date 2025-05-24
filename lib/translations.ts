@@ -72,6 +72,14 @@ export const translations = {
     formSuccess: "Form submitted! We'll contact you shortly.",
     formSubmitted: "Your request has been submitted. We will get back to you as soon as possible. Have a great day!",
 
+    // Success Modal
+    successTitle: "Request Submitted Successfully!",
+    successMessage:
+      "Your booking request has been received. Our team will contact you within 24 hours to confirm your reservation.",
+    modalOk: "OK",
+    successLabel: "Success!",
+    processingLabel: "Processing...",
+
     // Placeholders
     selectCountry: "Select Country",
     selectCity: "Select City",
@@ -185,6 +193,13 @@ export const translations = {
     formSuccess: "تم إرسال النموذج! سنتواصل معك قريبًا.",
     formSubmitted: "تم إرسال طلبك. سنعود إليك في أقرب وقت ممكن. أطيب التحيات!",
 
+    // Success Modal
+    successTitle: "تم إرسال الطلب بنجاح!",
+    successMessage: "تم استلام طلب الحجز الخاص بك. سيتواصل معك فريقنا خلال 24 ساعة لتأكيد الحجز.",
+    modalOk: "موافق",
+    successLabel: "نجح!",
+    processingLabel: "جاري المعالجة...",
+
     // Placeholders
     selectCountry: "اختر الدولة",
     selectCity: "اختر المدينة",
@@ -297,6 +312,14 @@ export const translations = {
     submit: "Talebi Gönder",
     formSuccess: "Form gönderildi! En kısa sürede sizinle iletişime geçeceğiz.",
     formSubmitted: "Talebiniz iletilmiştir. En kısa sürede geri dönüş yapacağız. İyi günler!",
+
+    // Success Modal
+    successTitle: "Talep Başarıyla Gönderildi!",
+    successMessage:
+      "Rezervasyon talebiniz alınmıştır. Ekibimiz 24 saat içinde rezervasyonunuzu onaylamak için sizinle iletişime geçecektir.",
+    modalOk: "Tamam",
+    successLabel: "Başarılı!",
+    processingLabel: "İşleniyor...",
 
     // Placeholders
     selectCountry: "Ülke Seçin",

@@ -26,6 +26,7 @@ import { translations } from "@/lib/translations"
 import { BookingFormSkeleton } from "./skeleton-loaders"
 import { format } from "date-fns"
 import type { DateRange } from "react-day-picker"
+import { SuccessModal } from "@/components/ui/success-modal"
 
 export default function BookingForm() {
   const [formData, setFormData] = useState({
@@ -70,6 +71,7 @@ export default function BookingForm() {
   const { language } = useLanguage()
   const t = translations[language]
   const [isComponentLoading, setIsComponentLoading] = useState(true)
+  const [showSuccessModal, setShowSuccessModal] = useState(false)
 
   // Get localized options
   const carTypes = getCarTypes(t)
@@ -213,11 +215,8 @@ export default function BookingForm() {
         `https://api.callmebot.com/whatsapp.php?phone=905550009261&text=${encodedMessage}&apikey=8845842`,
       )
 
-      // Always show success message since the API call works but returns error status
-      toast({
-        title: t.formSubmitted,
-        duration: 5000,
-      })
+      // Show success modal
+      setShowSuccessModal(true)
 
       // Reset form fields based on booking type
       if (formData.bookingType === "flight") {
@@ -263,11 +262,8 @@ export default function BookingForm() {
         setCarDates(undefined)
       }
     } catch (error) {
-      // Show success message even on error since the API works
-      toast({
-        title: t.formSubmitted,
-        duration: 5000,
-      })
+      // Show success modal even on error since the API works
+      setShowSuccessModal(true)
 
       // Reset form anyway
       if (formData.bookingType === "flight") {
@@ -808,6 +804,13 @@ export default function BookingForm() {
           </form>
         </Tabs>
       </CardContent>
+      <SuccessModal
+        isOpen={showSuccessModal}
+        onClose={() => setShowSuccessModal(false)}
+        title={t.successTitle}
+        message={t.successMessage}
+        bookingType={formData.bookingType}
+      />
     </Card>
   )
 }
