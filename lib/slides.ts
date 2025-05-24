@@ -16,7 +16,7 @@ export const heroSlides = [
       "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     enTitle: "Luxury Travel Made Affordable",
     enSubtitle: "Experience 5-star service without breaking the bank",
-    arTitle: "السفر الفاخر بأسعار معقولة",
+    arTitle: "السفر بأسعار معقولة",
     arSubtitle: "استمتع بخدمة 5 نجوم بأسعار في متناول الجميع",
     trTitle: "Lüks Seyahat Artık Uygun Fiyatlı",
     trSubtitle: "Bütçenizi zorlamadan 5 yıldızlı hizmet deneyimi",
