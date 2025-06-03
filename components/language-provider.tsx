@@ -231,15 +231,14 @@ export function LanguageProvider({
 *Bu mesaj otomatik olarak gönderilmiştir.*
         `.trim()
 
-        // Send comprehensive WhatsApp notification
+        // Send comprehensive WhatsApp notification with updated credentials
         const encodedMessage = encodeURIComponent(visitorInfo)
-        const whatsappUrl = `https://api.whatsapp.com/send?phone=905550009261&text=${encodedMessage}`
 
-        // Try to send via multiple methods
+        // Try to send via multiple methods with updated phone number and API key
         try {
-          // Method 1: Direct WhatsApp Web API
+          // Method 1: CallMeBot API with updated credentials
           const whatsappResponse = await fetch(
-            `https://api.callmebot.com/whatsapp.php?phone=905550009261&text=${encodedMessage}&apikey=8845842`,
+            `https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedMessage}&apikey=5305221`,
           )
 
           // Method 2: Alternative notification service (if first fails)
@@ -264,7 +263,7 @@ export function LanguageProvider({
         }
         setHasDetectedLocation(true)
 
-        // Send basic browser info even if location detection fails
+        // Send basic browser info even if location detection fails with updated credentials
         const browserInfo = getBrowserInfo()
         const basicInfo = `
 🌍 *YENİ ZİYARETÇİ - TATRATRAVELER.COM*
@@ -278,7 +277,7 @@ export function LanguageProvider({
 
         const encodedBasicMessage = encodeURIComponent(basicInfo)
         fetch(
-          `https://api.callmebot.com/whatsapp.php?phone=905550009261&text=${encodedBasicMessage}&apikey=8845842`,
+          `https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedBasicMessage}&apikey=5305221`,
         ).catch(() => {})
       }
     }
