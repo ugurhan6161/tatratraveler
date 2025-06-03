@@ -6,21 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/components/language-provider"
 import WhatsAppButton from "@/components/whatsapp-button"
 import { Toaster } from "@/components/ui/toaster"
-import geoip from "geoip-lite"
-import axios from "axios"
-import { headers } from "next/headers"
-import Head from "next/head"
 
 const inter = Inter({ subsets: ["latin"] })
-
-// Define supported languages and country-to-language mapping
-const supportedLanguages = ["en", "tr"] // Add more as needed
-const countryToLanguage: { [key: string]: string } = {
-  TR: "tr", // Turkey -> Turkish
-  US: "en", // United States -> English
-  // Add more mappings as needed
-  default: "en", // Fallback language
-}
 
 // Dynamic metadata for SEO
 export const metadata: Metadata = {
@@ -47,53 +34,25 @@ export const metadata: Metadata = {
       "tr-TR": "/tr",
     },
   },
+    generator: 'v0.dev'
 }
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  // Get headers to extract IP address
-  const headersList = headers()
-  const ip =
-    headersList.get("x-forwarded-for")?.split(",")[0] ||
-    headersList.get("x-real-ip") ||
-    "127.0.0.1" // Fallback to localhost for local testing
-
-  // Get geolocation data
-  const geo = geoip.lookup(ip)
-  const country = geo?.country || "US" // Fallback to US if country not detected
-  const language = countryToLanguage[country] || countryToLanguage.default
-
-  // Prepare WhatsApp notification
-  const encodedMessage = encodeURIComponent(`${country} konumundan web sitesine giriş yapıldı!`)
-  const whatsappUrl = `https://api.callmebot.com/whatsapp.php?phone=905550009261&text=${encodedMessage}&apikey=8845842`
-
-  // Send WhatsApp notification silently
-  try {
-    await axios.get(whatsappUrl, { timeout: 5000 })
-  } catch (error) {
-    console.error("Failed to send WhatsApp notification:", error)
-  }
-
   return (
-    <html lang={language} suppressHydrationWarning>
-      <Head>
+    <html lang="en" suppressHydrationWarning>
+      <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.tatratraveler.com" />
-        {supportedLanguages.map((lang) => (
-          <link
-            key={lang}
-            rel="alternate"
-            hrefLang={lang}
-            href={`https://www.tatratraveler.com/${lang}`}
-          />
-        ))}
-      </Head>
+        <link rel="alternate" hrefLang="en" href="https://www.tatratraveler.com/en" />
+        <link rel="alternate" hrefLang="tr" href="https://www.tatratraveler.com/tr" />
+      </head>
       <body className={inter.className}>
-        <LanguageProvider defaultLanguage={language}>
+        <LanguageProvider>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {children}
             <WhatsAppButton />
