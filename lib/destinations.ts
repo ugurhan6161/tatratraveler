@@ -12,7 +12,7 @@ export const popularDestinations = [
       tr: "İkonik Eyfel Kulesi'ne ev sahipliği yapan Işık Şehri",
     },
     image:
-      "https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const popularDestinations = [
       tr: "Antik kalıntıları ve berrak suları ile Akdeniz cenneti",
     },
     image:
-      "https://images.unsplash.com/photo-1539650116574-75c0c6d73dd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605058613338-8e71a50f4d1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const popularDestinations = [
       tr: "Peri bacaları ve sıcak hava balonları ile mistik manzara",
     },
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570975640108-2292d83390ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const popularDestinations = [
       tr: "Canlı gece hayatı ve tertemiz plajları ile Ege kıyısının incisi",
     },
     image:
-      "https://images.unsplash.com/photo-1571406252267-79c4ac2d5d51?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600240644455-fd509322a113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ export const popularDestinations = [
       tr: "Doğu ile Batı'nın buluştuğu tarihi camiler ve modern kültür",
     },
     image:
-      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 6,
@@ -87,7 +87,7 @@ export const popularDestinations = [
       tr: "Güzel plajları ve zengin kültürü ile ada cenneti",
     },
     image:
-      "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 7,
@@ -117,6 +117,6 @@ export const popularDestinations = [
       tr: "Doğal beyaz teraslar ve termal kaynaklar harikası",
     },
     image:
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589561454226-796a8aa89b05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
 ]

@@ -36,7 +36,7 @@ export default function NavBar() {
   }
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 shadow-sm">
       <div className="w-full max-w-7xl mx-auto px-4 flex h-16 items-center justify-between">
         <div className="flex items-center gap-2 min-w-0">
           <a href="/" className="font-bold text-xl md:text-2xl text-primary truncate">
