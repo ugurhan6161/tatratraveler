@@ -58,7 +58,7 @@ export default function NavBar() {
           <a href="#about" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">
             {t.about}
           </a>
-          <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">
+          <a href="/contact" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">
             {t.contact}
           </a>
         </nav>
@@ -112,7 +112,7 @@ export default function NavBar() {
                 <a href="#about" className="text-lg font-medium hover:text-primary transition-colors">
                   {t.about}
                 </a>
-                <a href="#contact" className="text-lg font-medium hover:text-primary transition-colors">
+                <a href="/contact" className="text-lg font-medium hover:text-primary transition-colors">
                   {t.contact}
                 </a>
               </nav>

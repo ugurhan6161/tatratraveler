@@ -80,6 +80,39 @@ export const translations = {
     successLabel: "Success!",
     processingLabel: "Processing...",
 
+    // Contact Page
+    contactTitle: "Contact Us",
+    contactSubtitle: "Get in touch with us for any inquiries or assistance",
+    contactInfo: "Contact Information",
+    ourAddress: "Our Address",
+    getInTouch: "Get In Touch",
+    contactFormTitle: "Send us a Message",
+    contactFormSubtitle: "Fill out the form below and we'll get back to you as soon as possible",
+    subject: "Subject",
+    message: "Message",
+    sendMessage: "Send Message",
+    sending: "Sending...",
+
+    // Contact Form Success
+    contactSuccessTitle: "Message Sent Successfully!",
+    contactSuccessMessage:
+      "Thank you for contacting us. We have received your message and will respond within 24 hours.",
+
+    // Contact Form Placeholders
+    subjectPlaceholder: "Enter your subject",
+    messagePlaceholder: "Enter your message here...",
+    namePlaceholder: "Enter your full name",
+    emailPlaceholder: "Enter your email address",
+    phonePlaceholder: "Enter your phone number",
+
+    // Address Details
+    address: "Kingdom of Saudi Arabia",
+    cityName: "Riyadh",
+    district: "Olaya District",
+    postalCode: "12254",
+    workingHours: "Working Hours",
+    available247: "Available 24/7",
+
     // Placeholders
     selectCountry: "Select Country",
     selectCity: "Select City",
@@ -199,6 +232,38 @@ export const translations = {
     modalOk: "موافق",
     successLabel: "نجح!",
     processingLabel: "جاري المعالجة...",
+
+    // Contact Page
+    contactTitle: "اتصل بنا",
+    contactSubtitle: "تواصل معنا لأي استفسارات أو مساعدة",
+    contactInfo: "معلومات الاتصال",
+    ourAddress: "عنواننا",
+    getInTouch: "تواصل معنا",
+    contactFormTitle: "أرسل لنا رسالة",
+    contactFormSubtitle: "املأ النموذج أدناه وسنعود إليك في أقرب وقت ممكن",
+    subject: "الموضوع",
+    message: "الرسالة",
+    sendMessage: "إرسال الرسالة",
+    sending: "جاري الإرسال...",
+
+    // Contact Form Success
+    contactSuccessTitle: "تم إرسال الرسالة بنجاح!",
+    contactSuccessMessage: "شكرًا لتواصلك معنا. لقد تلقينا رسالتك وسنرد خلال 24 ساعة.",
+
+    // Contact Form Placeholders
+    subjectPlaceholder: "أدخل الموضوع",
+    messagePlaceholder: "أدخل رسالتك هنا...",
+    namePlaceholder: "أدخل اسمك الكامل",
+    emailPlaceholder: "أدخل بريدك الإلكتروني",
+    phonePlaceholder: "أدخل رقم هاتفك",
+
+    // Address Details
+    address: "المملكة العربية السعودية",
+    cityName: "الرياض",
+    district: "حي العليا",
+    postalCode: "12254",
+    workingHours: "ساعات العمل",
+    available247: "متاح 24/7",
 
     // Placeholders
     selectCountry: "اختر الدولة",
@@ -320,6 +385,39 @@ export const translations = {
     modalOk: "Tamam",
     successLabel: "Başarılı!",
     processingLabel: "İşleniyor...",
+
+    // Contact Page
+    contactTitle: "İletişim",
+    contactSubtitle: "Herhangi bir sorunuz veya yardım için bizimle iletişime geçin",
+    contactInfo: "İletişim Bilgileri",
+    ourAddress: "Adresimiz",
+    getInTouch: "İletişime Geçin",
+    contactFormTitle: "Bize Mesaj Gönderin",
+    contactFormSubtitle: "Aşağıdaki formu doldurun, en kısa sürede size geri dönelim",
+    subject: "Konu",
+    message: "Mesaj",
+    sendMessage: "Mesaj Gönder",
+    sending: "Gönderiliyor...",
+
+    // Contact Form Success
+    contactSuccessTitle: "Mesaj Başarıyla Gönderildi!",
+    contactSuccessMessage:
+      "Bizimle iletişime geçtiğiniz için teşekkürler. Mesajınızı aldık ve 24 saat içinde yanıtlayacağız.",
+
+    // Contact Form Placeholders
+    subjectPlaceholder: "Konuyu girin",
+    messagePlaceholder: "Mesajınızı buraya yazın...",
+    namePlaceholder: "Ad soyadınızı girin",
+    emailPlaceholder: "E-posta adresinizi girin",
+    phonePlaceholder: "Telefon numaranızı girin",
+
+    // Address Details
+    address: "Suudi Arabistan Krallığı",
+    cityName: "Riyad",
+    district: "Olaya Bölgesi",
+    postalCode: "12254",
+    workingHours: "Çalışma Saatleri",
+    available247: "7/24 Müsait",
 
     // Placeholders
     selectCountry: "Ülke Seçin",
