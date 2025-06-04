@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Instagram, MessageSquare, Mail } from "lucide-react"
+import { Instagram, MessageSquare, Mail, MapPin } from "lucide-react"
 import { useLanguage } from "./language-provider"
 import { translations } from "@/lib/translations"
 import { FooterSkeleton } from "./skeleton-loaders"
@@ -25,7 +25,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">TatraTraveler</h3>
             <p className="max-w-xs opacity-80">{t.companyDescription}</p>
@@ -47,6 +47,20 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-bold mb-4">{t.ourAddress}</h3>
+            <div className="space-y-2 opacity-80">
+              <div className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
+                <div className="text-sm">
+                  <p>Kingdom of Saudi Arabia</p>
+                  <p>Riyadh - Olaya District</p>
+                  <p>12254</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div>

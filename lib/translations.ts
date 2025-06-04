@@ -145,6 +145,16 @@ export const translations = {
     popularDestinations: "Popular Destinations",
     explore: "Explore",
 
+    // Destination Modal
+    aboutDestination: "About This Destination",
+    highlights: "Top Attractions",
+    location: "Location",
+    bestTime: "Best Time to Visit",
+    yearRound: "Year Round",
+    suitableFor: "Suitable For",
+    allTravelers: "All Travelers",
+    viewMore: "View More",
+
     // Footer
     contactUs: "Contact Us",
     followUs: "Follow Us",
@@ -235,7 +245,7 @@ export const translations = {
 
     // Contact Page
     contactTitle: "اتصل بنا",
-    contactSubtitle: "تواصل معنا لأي استفسارات أو مساعدة",
+    contactSubtitle: "تواصل معنا لأي استفسار أو للمساعدة",
     contactInfo: "معلومات الاتصال",
     ourAddress: "عنواننا",
     getInTouch: "تواصل معنا",
@@ -296,6 +306,16 @@ export const translations = {
     // Destinations
     popularDestinations: "الوجهات الشهيرة",
     explore: "استكشف",
+
+    // Destination Modal
+    aboutDestination: "حول هذه الوجهة",
+    highlights: "أهم المعالم",
+    location: "الموقع",
+    bestTime: "أفضل وقت للزيارة",
+    yearRound: "على مدار السنة",
+    suitableFor: "مناسب لـ",
+    allTravelers: "جميع المسافرين",
+    viewMore: "عرض المزيد",
 
     // Footer
     contactUs: "اتصل بنا",
@@ -450,6 +470,16 @@ export const translations = {
     // Destinations
     popularDestinations: "Popüler Destinasyonlar",
     explore: "Keşfet",
+
+    // Destination Modal
+    aboutDestination: "Bu Destinasyon Hakkında",
+    highlights: "Öne Çıkan Yerler",
+    location: "Konum",
+    bestTime: "En İyi Ziyaret Zamanı",
+    yearRound: "Yıl Boyunca",
+    suitableFor: "Uygun Olan",
+    allTravelers: "Tüm Gezginler",
+    viewMore: "Daha Fazla Gör",
 
     // Footer
     contactUs: "Bizimle İletişime Geçin",
