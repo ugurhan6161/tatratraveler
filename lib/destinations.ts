@@ -75,7 +75,7 @@ export const popularDestinations = [
       ],
     },
     image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://digital.ihg.com/is/image/ihg/crowne-plaza-riyadh-7599728729-4x3?fmt=jpg&jpegSize=500&qlt=85&resMode=sharp2&op_usm=1.75,0.3,2.0",
   },
   {
     id: 3,
@@ -106,8 +106,7 @@ export const popularDestinations = [
       ar: ["دير سوميلا", "بحيرة أوزونغول", "آيا صوفيا طرابزون", "تل بوزتبه", "قصر أتاتورك", "بحيرة سيرا"],
       tr: ["Sümela Manastırı", "Uzungöl", "Trabzon Ayasofya'sı", "Boztepe Tepesi", "Atatürk Köşkü", "Sera Gölü"],
     },
-    image:
-      "https://images.unsplash.com/photo-1609137144813-7d9921338f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.odamax.com/definitions/odamax/landing/563e48b852fe441067000da2a3776263_20230123131639.jpg",
   },
   {
     id: 4,
@@ -152,8 +151,7 @@ export const popularDestinations = [
         "Geleneksel Çarşılar",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://moverdb.com/wp-content/uploads/saudi-arabia-jeddah-best-for-families.jpg",
   },
   {
     id: 5,
@@ -198,8 +196,7 @@ export const popularDestinations = [
         "Maraya Konser Salonu",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://www.abouther.com/sites/default/files/2022/05/16/saudi_film_shot_in_alula.jpg",
   },
   {
     id: 6,
@@ -244,8 +241,7 @@ export const popularDestinations = [
         "İnovasyon Merkezleri",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://miro.medium.com/v2/resize:fit:1200/1*8p8fEbOdT8NHQ5NhMuLN8A.jpeg",
   },
   {
     id: 7,
@@ -283,8 +279,7 @@ export const popularDestinations = [
         "Teleferik Yolculukları",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://alkhaleejtoday.co/content/uploads/2020/05/08/4b1b025f03.jpg",
   },
   {
     id: 8,
@@ -315,8 +310,7 @@ export const popularDestinations = [
         "Dağ Tatil Köyleri",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/96/67/6c/saysaad.jpg?w=1200&h=1200&s=1",
   },
   {
     id: 9,
@@ -354,8 +348,7 @@ export const popularDestinations = [
         "Kültür Merkezleri",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://airlinesofficedesk.com/wp-content/uploads/2024/03/Dammam-Saudi-Arabia.jpg",
   },
   {
     id: 10,
@@ -379,8 +372,7 @@ export const popularDestinations = [
       ar: ["المسجد الحرام", "الكعبة المشرفة", "الحجر الأسود", "بئر زمزم", "جبل عرفات", "منى"],
       tr: ["Büyük Cami (Mescid-i Haram)", "Kabe", "Hacer-ül Esved", "Zemzem Kuyusu", "Arafat Dağı", "Mina"],
     },
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://avatars.mds.yandex.net/i?id=2d962f9a558792b6df59a0dd1d318a9824e6d9db-5706222-images-thumbs&n=13",
   },
   {
     id: 11,
@@ -418,8 +410,7 @@ export const popularDestinations = [
         "Hurma Bahçeleri",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://res.cloudinary.com/turna/images/f_auto,q_auto/v1494693603/Medine_nxacvq/Medine_nxacvq-jpg?_i=AA",
   },
   {
     id: 12,
@@ -457,47 +448,7 @@ export const popularDestinations = [
         "Sahil Restoranları",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  },
-  {
-    id: 13,
-    name: {
-      en: "Yanbu, Saudi Arabia",
-      ar: "ينبع، المملكة العربية السعودية",
-      tr: "Yanbu, Suudi Arabistan",
-    },
-    description: {
-      en: "Red Sea port city with pristine beaches and excellent diving spots",
-      ar: "مدينة ميناء البحر الأحمر مع شواطئ نقية ومواقع غوص ممتازة",
-      tr: "Tertemiz plajlar ve mükemmel dalış noktaları ile Kızıldeniz liman şehri",
-    },
-    detailedDescription: {
-      en: "Yanbu is a major Red Sea port city in western Saudi Arabia, known for its pristine beaches, coral reefs, and excellent diving opportunities. The city serves as an important industrial hub while maintaining its natural beauty and historical significance. Yanbu features beautiful waterfront areas, traditional souks, and modern amenities. The city is famous for its clear waters, diverse marine life, and proximity to some of the Red Sea's best diving and snorkeling sites.",
-      ar: "ينبع مدينة ميناء رئيسية على البحر الأحمر في غرب المملكة العربية السعودية، تشتهر بشواطئها النقية والشعاب المرجانية وفرص الغوص الممتازة. تعتبر المدينة مركزاً صناعياً مهماً مع الحفاظ على جمالها الطبيعي وأهميتها التاريخية. تتميز ينبع بمناطق الواجهة البحرية الجميلة والأسواق التقليدية ووسائل الراحة الحديثة. تشتهر المدينة بمياهها الصافية والحياة البحرية المتنوعة وقربها من بعض أفضل مواقع الغوص والغطس في البحر الأحمر.",
-      tr: "Yanbu, batı Suudi Arabistan'da yer alan önemli bir Kızıldeniz liman şehridir ve tertemiz plajları, mercan resifleri ve mükemmel dalış fırsatlarıyla tanınır. Şehir doğal güzelliğini ve tarihi önemini korurken önemli bir sanayi merkezi olarak hizmet verir. Yanbu güzel sahil alanları, geleneksel çarşılar ve modern olanaklar sunar. Şehir berrak suları, çeşitli deniz yaşamı ve Kızıldeniz'in en iyi dalış ve şnorkel noktalarından bazılarına yakınlığıyla ünlüdür.",
-    },
-    highlights: {
-      en: ["Red Sea Beaches", "Coral Reefs", "Diving Centers", "Historic Yanbu", "Waterfront Promenade", "Marine Life"],
-      ar: [
-        "شواطئ البحر الأحمر",
-        "الشعاب المرجانية",
-        "مراكز الغوص",
-        "ينبع التاريخية",
-        "كورنيش الواجهة البحرية",
-        "الحياة البحرية",
-      ],
-      tr: [
-        "Kızıldeniz Plajları",
-        "Mercan Resifleri",
-        "Dalış Merkezleri",
-        "Tarihi Yanbu",
-        "Sahil Gezinti Yolu",
-        "Deniz Yaşamı",
-      ],
-    },
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://avatars.mds.yandex.net/i?id=47baed3854fd982cbfb55b80ee43d8c9ced3488e-4359838-images-thumbs&n=13",
   },
   {
     id: 14,
@@ -536,7 +487,7 @@ export const popularDestinations = [
       ],
     },
     image:
-      "https://images.unsplash.com/photo-1605058613338-8e71a50f4d1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://i0.wp.com/rayhaber.com/wp-content/uploads/2023/08/Antalya-Otelleri-Aramalari-Yuzde-124-Artti.jpg?fit=2136%2C1200&ssl=1",
   },
   {
     id: 15,
@@ -581,8 +532,7 @@ export const popularDestinations = [
         "Yürüyüş Vadileri",
       ],
     },
-    image:
-      "https://images.unsplash.com/photo-1570975640108-2292d83390ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://avatars.mds.yandex.net/i?id=e9d63abfb1adc6766d000ca2eaca7335ad6bca70-5549928-images-thumbs&n=13",
   },
   {
     id: 16,
@@ -606,8 +556,7 @@ export const popularDestinations = [
       ar: ["قلعة بودروم", "ضريح هاليكارناسوس", "المارينا", "نوادي الشاطئ", "الحياة الليلية", "طواحين الهواء"],
       tr: ["Bodrum Kalesi", "Halikarnas Mozolesi", "Marina", "Plaj Kulüpleri", "Gece Hayatı", "Yel Değirmenleri"],
     },
-    image:
-      "https://images.unsplash.com/photo-1600240644455-fd509322a113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://avatars.mds.yandex.net/i?id=261e974d7e24c2b9f6224da46e03bdc17a40c86f-4135367-images-thumbs&n=13",
   },
   {
     id: 17,
@@ -789,5 +738,89 @@ export const popularDestinations = [
     },
     image:
       "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 22,
+    name: {
+      en: "Sarajevo, Bosnia and Herzegovina",
+      ar: "سراييفو، البوسنة والهرسك",
+      tr: "Saraybosna, Bosna-Hersek",
+    },
+    description: {
+      en: "Historic city where East meets West with Ottoman heritage and stunning mountain scenery",
+      ar: "مدينة تاريخية حيث يلتقي الشرق والغرب مع التراث العثماني والمناظر الجبلية المذهلة",
+      tr: "Doğu ile Batı'nın buluştuğu Osmanlı mirası ve muhteşem dağ manzaraları ile tarihi şehir",
+    },
+    detailedDescription: {
+      en: "Sarajevo, the capital of Bosnia and Herzegovina, is a fascinating city where European and Ottoman cultures blend seamlessly. Known as the 'Jerusalem of Europe,' the city features stunning architecture including the historic Baščaršija bazaar, Gazi Husrev-beg Mosque, and the Latin Bridge. Sarajevo offers rich history, delicious Bosnian cuisine, and warm hospitality. The city is surrounded by beautiful mountains, making it perfect for both cultural exploration and outdoor activities.",
+      ar: "سراييفو، عاصمة البوسنة والهرسك، مدينة رائعة حيث تمتزج الثقافات الأوروبية والعثمانية بسلاسة. تُعرف باسم 'القدس الأوروبية'، وتضم المدينة هندسة معمارية مذهلة بما في ذلك بازار باشتشارشيا التاريخي ومسجد غازي خسرو بيك والجسر اللاتيني. تقدم سراييفو تاريخاً غنياً ومأكولات بوسنية لذيذة وضيافة دافئة. المدينة محاطة بجبال جميلة، مما يجعلها مثالية للاستكشاف الثقافي والأنشطة الخارجية.",
+      tr: "Bosna-Hersek'in başkenti Saraybosna, Avrupa ve Osmanlı kültürlerinin kusursuz bir şekilde harmanlandığı büyüleyici bir şehirdir. 'Avrupa'nın Kudüsü' olarak bilinen şehir, tarihi Başçarşı çarşısı, Gazi Hüsrev Bey Camii ve Latin Köprüsü dahil olmak üzere muhteşem mimariye sahiptir. Saraybosna zengin tarih, lezzetli Boşnak mutfağı ve sıcak misafirperverlik sunar. Şehir güzel dağlarla çevrilidir, bu da onu hem kültürel keşif hem de açık hava etkinlikleri için mükemmel kılar.",
+    },
+    highlights: {
+      en: [
+        "Baščaršija Old Bazaar",
+        "Gazi Husrev-beg Mosque",
+        "Latin Bridge",
+        "Sarajevo Tunnel Museum",
+        "Yellow Fortress",
+        "Vrelo Bosne Spring",
+      ],
+      ar: [
+        "بازار باشتشارشيا القديم",
+        "مسجد غازي خسرو بيك",
+        "الجسر اللاتيني",
+        "متحف نفق سراييفو",
+        "القلعة الصفراء",
+        "ينبوع فريلو بوسنه",
+      ],
+      tr: [
+        "Başçarşı Eski Çarşısı",
+        "Gazi Hüsrev Bey Camii",
+        "Latin Köprüsü",
+        "Saraybosna Tünel Müzesi",
+        "Sarı Kale",
+        "Vrelo Bosne Kaynağı",
+      ],
+    },
+    image:
+      "https://avatars.mds.yandex.net/i?id=06e8bf59ff263d43e0f8185e103f93aff6a6d2fd-5299516-images-thumbs&n=13",
+  },
+  {
+    id: 23,
+    name: {
+      en: "Tirana, Albania",
+      ar: "تيرانا، ألبانيا",
+      tr: "Tiran, Arnavutluk",
+    },
+    description: {
+      en: "Vibrant capital with colorful buildings, rich history and stunning Albanian Alps nearby",
+      ar: "عاصمة نابضة بالحياة مع مباني ملونة وتاريخ غني وجبال الألب الألبانية المذهلة القريبة",
+      tr: "Renkli binaları, zengin tarihi ve yakınındaki muhteşem Arnavut Alpleri ile canlı başkent",
+    },
+    detailedDescription: {
+      en: "Tirana, Albania's vibrant capital, is a city of contrasts where communist-era architecture meets modern development and colorful street art. The city center features the iconic Skanderbeg Square, the National History Museum, and the unique Pyramid of Tirana. Known for its lively café culture, affordable prices, and friendly locals, Tirana serves as a perfect base for exploring Albania's stunning coastline and mountain regions. The city offers a unique blend of Ottoman, Italian, and communist influences.",
+      ar: "تيرانا، عاصمة ألبانيا النابضة بالحياة، مدينة من التناقضات حيث تلتقي العمارة من العهد الشيوعي مع التطوير الحديث وفن الشارع الملون. يضم وسط المدينة ساحة سكاندربيغ الشهيرة ومتحف التاريخ الوطني وهرم تيرانا الفريد. تُعرف بثقافة المقاهي الحيوية والأسعار المعقولة والسكان المحليين الودودين، وتعتبر تيرانا قاعدة مثالية لاستكشاف الساحل المذهل والمناطق الجبلية في ألبانيا. تقدم المدينة مزيجاً فريداً من التأثيرات العثمانية والإيطالية والشيوعية.",
+      tr: "Arnavutluk'un canlı başkenti Tiran, komünist dönem mimarisinin modern gelişim ve renkli sokak sanatıyla buluştuğu bir zıtlıklar şehridir. Şehir merkezi ikonik İskender Bey Meydanı, Ulusal Tarih Müzesi ve eşsiz Tiran Piramidi'ni barındırır. Canlı kafe kültürü, uygun fiyatları ve dostane yerel halkıyla tanınan Tiran, Arnavutluk'un muhteşem kıyı şeridini ve dağlık bölgelerini keşfetmek için mükemmel bir üs görevi görür. Şehir Osmanlı, İtalyan ve komünist etkilerinin eşsiz bir karışımını sunar.",
+    },
+    highlights: {
+      en: [
+        "Skanderbeg Square",
+        "National History Museum",
+        "Et'hem Bey Mosque",
+        "Pyramid of Tirana",
+        "Blloku District",
+        "Mount Dajti Cable Car",
+      ],
+      ar: ["ساحة سكاندربيغ", "متحف التاريخ الوطني", "مسجد إتهم بيك", "هرم تيرانا", "منطقة بلوكو", "تلفريك جبل داجتي"],
+      tr: [
+        "İskender Bey Meydanı",
+        "Ulusal Tarih Müzesi",
+        "Et'hem Bey Camii",
+        "Tiran Piramidi",
+        "Blloku Bölgesi",
+        "Dajti Dağı Teleferik",
+      ],
+    },
+    image: "https://avatars.mds.yandex.net/i?id=bc52cbc96067dbf9cd9835f1430bb4e60fcfca3a-10752210-images-thumbs&n=13",
   },
 ]
