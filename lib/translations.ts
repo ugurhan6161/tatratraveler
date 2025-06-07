@@ -9,6 +9,7 @@ export const translations = {
     // Hero
     heroTitle: "Explore the World with TatraTraveler",
     heroSubtitle: "Your journey to amazing destinations begins here",
+    heroSlogan: "We're not the cheapest, but your satisfaction is our priority",
     bookNow: "Book Now",
     learnMore: "Learn More",
 
@@ -162,6 +163,13 @@ export const translations = {
     companyDescription: "Making travel dreams come true since 2023. Your trusted partner for worldwide adventures.",
     emailContact: "tatratraveler12@gmail.com",
     phoneContact: "+966 55 201 2122",
+
+    // SEO Meta
+    seoTitle: "TatraTraveler - Premium Travel Services | Book Flights, Hotels & Car Rentals",
+    seoDescription:
+      "We're not the cheapest, but your satisfaction is our priority. Book premium flights, luxury hotels, and reliable car rentals worldwide with TatraTraveler. Expert travel services since 2023.",
+    seoKeywords:
+      "travel agency, flights booking, hotel reservations, car rental, premium travel, Saudi Arabia travel, international travel, vacation packages, travel services",
   },
   ar: {
     // Navigation
@@ -173,6 +181,7 @@ export const translations = {
     // Hero
     heroTitle: "استكشف العالم مع تاترا ترافيلر",
     heroSubtitle: "رحلتك إلى وجهات مذهلة تبدأ من هنا",
+    heroSlogan: "لسنا الأرخص، لكن رضاكم أولويتنا",
     bookNow: "احجز الآن",
     learnMore: "اكتشف المزيد",
 
@@ -324,6 +333,13 @@ export const translations = {
     companyDescription: "نحقق أحلام السفر منذ عام 2023. شريكك الموثوق للمغامرات حول العالم.",
     emailContact: "tatratraveler12@gmail.com",
     phoneContact: "+966 55 201 2122",
+
+    // SEO Meta
+    seoTitle: "تاترا ترافيلر - خدمات السفر المميزة | حجز طيران وفنادق وتأجير سيارات",
+    seoDescription:
+      "لسنا الأرخص، لكن رضاكم أولويتنا. احجز رحلات طيران مميزة وفنادق فاخرة وتأجير سيارات موثوق في جميع أنحاء العالم مع تاترا ترافيلر. خدمات سفر خبيرة منذ 2023.",
+    seoKeywords:
+      "وكالة سفر، حجز طيران، حجز فنادق، تأجير سيارات، سفر مميز، السفر السعودية، السفر الدولي، باقات العطلات، خدمات السفر",
   },
   tr: {
     // Navigation
@@ -335,6 +351,7 @@ export const translations = {
     // Hero
     heroTitle: "TatraTraveler ile Dünyayı Keşfedin",
     heroSubtitle: "Harika destinasyonlara yolculuğunuz buradan başlıyor",
+    heroSlogan: "En ucuzu değiliz, ama memnuniyetiniz bizim önceliğimiz",
     bookNow: "Şimdi Rezervasyon Yap",
     learnMore: "Daha Fazla Bilgi",
 
@@ -489,5 +506,12 @@ export const translations = {
       "2023'den beri seyahat hayallerini gerçekleştiriyoruz. Dünya çapında maceralar için güvenilir ortağınız.",
     emailContact: "tatratraveler12@gmail.com",
     phoneContact: "+966 55 201 2122",
+
+    // SEO Meta
+    seoTitle: "TatraTraveler - Premium Seyahat Hizmetleri | Uçak, Otel ve Araç Kiralama",
+    seoDescription:
+      "En ucuzu değiliz, ama memnuniyetiniz bizim önceliğimiz. TatraTraveler ile dünya çapında premium uçuşlar, lüks oteller ve güvenilir araç kiralama hizmetleri. 2023'den beri uzman seyahat hizmetleri.",
+    seoKeywords:
+      "seyahat acentesi, uçak bileti, otel rezervasyonu, araç kiralama, premium seyahat, Suudi Arabistan seyahat, uluslararası seyahat, tatil paketleri, seyahat hizmetleri",
   },
 }

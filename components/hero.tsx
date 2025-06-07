@@ -60,7 +60,15 @@ export default function Hero() {
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative h-full flex flex-col justify-center items-center text-center text-white p-4 z-10">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fadeIn">{getTitle(slide)}</h1>
-            <p className="text-lg md:text-xl mb-8 max-w-2xl animate-fadeIn animation-delay-200">{getSubtitle(slide)}</p>
+            <p className="text-lg md:text-xl mb-4 max-w-2xl animate-fadeIn animation-delay-200">{getSubtitle(slide)}</p>
+
+            {/* Slogan */}
+            <div className="mb-8 animate-fadeIn animation-delay-300">
+              <p className="text-base md:text-lg font-medium bg-black/30 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20 max-w-3xl">
+                {t.heroSlogan}
+              </p>
+            </div>
+
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" className="animate-fadeIn animation-delay-400">
                 {t.bookNow}
