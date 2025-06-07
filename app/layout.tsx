@@ -60,9 +60,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.tatratraveler.com",
     languages: {
-      "en-US": "https://www.tatratraveler.com/en",
-      "ar-SA": "https://www.tatratraveler.com/ar",
-      "tr-TR": "https://www.tatratraveler.com/tr",
+      "en-US": "https://www.tatratraveler.com",
+      "ar-SA": "https://www.tatratraveler.com",
+      "tr-TR": "https://www.tatratraveler.com",
     },
   },
   verification: {
@@ -158,12 +158,8 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-        {/* Canonical and alternate language links */}
+        {/* Canonical link */}
         <link rel="canonical" href="https://www.tatratraveler.com" />
-        <link rel="alternate" hrefLang="en" href="https://www.tatratraveler.com/en" />
-        <link rel="alternate" hrefLang="ar" href="https://www.tatratraveler.com/ar" />
-        <link rel="alternate" hrefLang="tr" href="https://www.tatratraveler.com/tr" />
-        <link rel="alternate" hrefLang="x-default" href="https://www.tatratraveler.com" />
 
         {/* Favicon and app icons */}
         <link rel="icon" href="/favicon.ico" />

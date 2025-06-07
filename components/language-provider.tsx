@@ -121,10 +121,30 @@ export function LanguageProvider({
   children,
   defaultLanguage = "en",
 }: { children: ReactNode; defaultLanguage?: Language }) {
-  const [language, setLanguage] = useState<Language>(defaultLanguage)
+  const [language, setLanguageState] = useState<Language>(defaultLanguage)
   const [hasDetectedLocation, setHasDetectedLocation] = useState(false)
 
+  // Basit dil değiştirme fonksiyonu - sadece state ve çerez günceller
+  const setLanguage = (newLanguage: Language) => {
+    setLanguageState(newLanguage)
+
+    // Çerez ayarla
+    document.cookie = `NEXT_LOCALE=${newLanguage}; path=/; max-age=${60 * 60 * 24 * 30}; SameSite=Lax`
+  }
+
   useEffect(() => {
+    // Çerezden dil bilgisini al
+    const localeCookie = document.cookie
+      .split("; ")
+      .find((row) => row.startsWith("NEXT_LOCALE="))
+      ?.split("=")[1]
+
+    if (localeCookie && (localeCookie === "en" || localeCookie === "ar" || localeCookie === "tr")) {
+      setLanguageState(localeCookie as Language)
+      setHasDetectedLocation(true)
+      return
+    }
+
     // Detect user's location and set language accordingly
     const detectLocationAndLanguage = async () => {
       if (hasDetectedLocation) return
