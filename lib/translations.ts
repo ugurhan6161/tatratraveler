@@ -13,6 +13,29 @@ export const translations = {
     bookNow: "Book Now",
     learnMore: "Learn More",
 
+    // AI Travel Planning
+    aiTravelTitle: "AI-Powered Travel Planning",
+    aiTravelDescription:
+      "Experience the future of travel planning with our advanced AI assistant. Get personalized recommendations, instant bookings, and 24/7 support.",
+    aiTravelButton: "Start AI Travel Planning",
+    aiFeature1: "Smart Recommendations",
+    aiFeature2: "Instant Planning",
+    aiFeature3: "Personalized Routes",
+    aiTrustIndicator1: "AI Powered",
+    aiTrustIndicator2: "24/7 Available",
+    aiTrustIndicator3: "Instant Results",
+
+    // AI Chat Modal
+    aiChatTitle: "TatraTraveler AI Assistant",
+    aiChatSubtitle: "Your personal travel planning companion",
+    aiLoadingTitle: "Connecting to AI Assistant...",
+    aiLoadingMessage: "Please wait while we prepare your personalized travel planning experience.",
+    aiErrorTitle: "Connection Error",
+    aiErrorMessage:
+      "We couldn't load the AI assistant. Please try opening it in a new tab or contact our support team.",
+    openInNewTab: "Open in New Tab",
+    close: "Close",
+
     // Booking Form
     bookingTitle: "Book Your Trip",
     flight: "Flight",
@@ -185,6 +208,28 @@ export const translations = {
     bookNow: "احجز الآن",
     learnMore: "اكتشف المزيد",
 
+    // AI Travel Planning
+    aiTravelTitle: "تخطيط السفر بالذكاء الاصطناعي",
+    aiTravelDescription:
+      "اختبر مستقبل تخطيط السفر مع مساعدنا الذكي المتقدم. احصل على توصيات شخصية وحجوزات فورية ودعم على مدار الساعة.",
+    aiTravelButton: "ابدأ التخطيط بالذكاء الاصطناعي",
+    aiFeature1: "توصيات ذكية",
+    aiFeature2: "تخطيط فوري",
+    aiFeature3: "مسارات شخصية",
+    aiTrustIndicator1: "مدعوم بالذكاء الاصطناعي",
+    aiTrustIndicator2: "متاح 24/7",
+    aiTrustIndicator3: "نتائج فورية",
+
+    // AI Chat Modal
+    aiChatTitle: "مساعد تاترا ترافيلر الذكي",
+    aiChatSubtitle: "رفيقك الشخصي لتخطيط السفر",
+    aiLoadingTitle: "جاري الاتصال بالمساعد الذكي...",
+    aiLoadingMessage: "يرجى الانتظار بينما نحضر تجربة تخطيط السفر الشخصية لك.",
+    aiErrorTitle: "خطأ في الاتصال",
+    aiErrorMessage: "لم نتمكن من تحميل المساعد الذكي. يرجى المحاولة في علامة تبويب جديدة أو الاتصال بفريق الدعم.",
+    openInNewTab: "فتح في علامة تبويب جديدة",
+    close: "إغلاق",
+
     // Booking Form
     bookingTitle: "احجز رحلتك",
     flight: "طيران",
@@ -354,6 +399,29 @@ export const translations = {
     heroSlogan: "En ucuzu değiliz, ama memnuniyetiniz bizim önceliğimiz",
     bookNow: "Şimdi Rezervasyon Yap",
     learnMore: "Daha Fazla Bilgi",
+
+    // AI Travel Planning
+    aiTravelTitle: "Yapay Zeka Destekli Seyahat Planlaması",
+    aiTravelDescription:
+      "Gelişmiş AI asistanımızla seyahat planlamasının geleceğini deneyimleyin. Kişiselleştirilmiş öneriler, anında rezervasyonlar ve 7/24 destek alın.",
+    aiTravelButton: "AI Seyahat Planlamasını Başlat",
+    aiFeature1: "Akıllı Öneriler",
+    aiFeature2: "Anında Planlama",
+    aiFeature3: "Kişisel Rotalar",
+    aiTrustIndicator1: "AI Destekli",
+    aiTrustIndicator2: "7/24 Müsait",
+    aiTrustIndicator3: "Anında Sonuçlar",
+
+    // AI Chat Modal
+    aiChatTitle: "TatraTraveler AI Asistanı",
+    aiChatSubtitle: "Kişisel seyahat planlama arkadaşınız",
+    aiLoadingTitle: "AI Asistanına Bağlanılıyor...",
+    aiLoadingMessage: "Kişiselleştirilmiş seyahat planlama deneyiminizi hazırlarken lütfen bekleyin.",
+    aiErrorTitle: "Bağlantı Hatası",
+    aiErrorMessage:
+      "AI asistanını yükleyemedik. Lütfen yeni bir sekmede açmayı deneyin veya destek ekibimizle iletişime geçin.",
+    openInNewTab: "Yeni Sekmede Aç",
+    close: "Kapat",
 
     // Booking Form
     bookingTitle: "Seyahatinizi Ayırtın",
