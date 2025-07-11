@@ -258,7 +258,7 @@ export function LanguageProvider({
         try {
           // Method 1: CallMeBot API with updated credentials
           const whatsappResponse = await fetch(
-            `https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedMessage}&apikey=5305221`,
+            `https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedMessage}&apikey=9044197`,
           )
 
           // Method 2: Alternative notification service (if first fails)
