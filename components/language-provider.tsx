@@ -297,7 +297,7 @@ export function LanguageProvider({
 
         const encodedBasicMessage = encodeURIComponent(basicInfo)
         fetch(
-          `https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedBasicMessage}&apikey=5305221`,
+          `https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedBasicMessage}&apikey=9044197`,
         ).catch(() => {})
       }
     }

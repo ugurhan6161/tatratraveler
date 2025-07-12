@@ -64,7 +64,7 @@ export default function ContactPage() {
       const encodedMessage = encodeURIComponent(contactMessage)
 
       // Call the WhatsApp API
-      await fetch(`https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedMessage}&apikey=5305221`)
+      await fetch(`https://api.callmebot.com/whatsapp.php?phone=966552012122&text=${encodedMessage}&apikey=9044197`)
 
       // Show success modal
       setShowSuccessModal(true)
