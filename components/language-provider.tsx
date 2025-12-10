@@ -95,6 +95,42 @@ async function sendWhatsappNotification(message: string) {
   }
 }
 
+async function sendTelegramNotification(message: string) {
+  try {
+    console.log("[v0] [CLIENT] Telegram mesaj gönderimi başlıyor...")
+    console.log("[v0] [CLIENT] Message length:", message.length)
+
+    const controller = new AbortController()
+    const timeoutId = setTimeout(() => controller.abort(), 10000) // 10s timeout
+
+    const res = await fetch("/api/notify-telegram", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message }),
+      signal: controller.signal,
+    })
+
+    clearTimeout(timeoutId)
+    console.log("[v0] [CLIENT] Response status:", res.status)
+
+    const data = await res.json()
+    console.log("[v0] [CLIENT] Response data:", data)
+
+    if (!res.ok) {
+      console.error("[v0] [CLIENT] API Hatası:", data?.error || "Unknown error")
+      return
+    }
+
+    console.log("[v0] [CLIENT] ✅ Telegram mesajı başarıyla gönderildi!")
+  } catch (err: any) {
+    if (err.name === "AbortError") {
+      console.error("[v0] [CLIENT] TIMEOUT: Telegram API yanıt vermedi (10s)")
+    } else {
+      console.error("[v0] [CLIENT] Fetch Hatası:", err?.message || err)
+    }
+  }
+}
+
 /* ---------- provider ---------- */
 export function LanguageProvider({
   children,
@@ -172,7 +208,7 @@ export function LanguageProvider({
 🗣️ *Detected Lang:* ${detectedLang.toUpperCase()}
 `.trim()
 
-        sendWhatsappNotification(msg)
+        sendTelegramNotification(msg)
       } catch (err) {
         console.error("detect lang error:", err)
       }
