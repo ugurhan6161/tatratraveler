@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 // JSON-LD structured data for better SEO
